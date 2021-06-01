@@ -1,0 +1,195 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f9fafc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chirpusLink {
+    color: #000;
+    font-size: .85em;
+    margin-bottom: 5px;
+}
+
+.greyLink {
+    color: #69696a;
+    font-size: .85em;
+    margin-bottom: 5px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+
+h2 {
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+p {
+    color:#69696a;
+    border-left: solid;
+    font-size: .85em;
+    padding-left: 10px;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    font-weight: 300;
+    border-radius: 18px;
+    border: none;
+    font-size: .85em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2px;
+}
+
+footer {
+    background: rgba(247, 193, 162, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.greyLink.bottom {
+    flex: 1;
+}
+
+.chirpusLink.bottom {
+    flex: 4;
+    margin-left: 8px;
+}
+
+/* Desktop view below */
+
+@media screen and (min-width: 768px) {
+   
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        width: 92%;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chirpusLink.top {
+        flex: 6.5;
+        font-size: 1.5vw;
+        /* Had to use vw for font to keep spacing equidistant between links and 'hire us' button*/
+    }
+
+    .greyLink.top {
+        margin: 4px;
+        font-size: 1.5vw;
+    /* Had to use vw for font to keep spacing equidistant between links and 'hire us' button*/
+    /* This might make the proportions of fonts between h2, links, p, different than the model for assignment*/
+    }
+
+    .greyLink.top.work {
+        flex: .5;
+    }
+
+    .greyLink.top.aboutUs {
+        flex: .8;
+       
+    }
+
+    .greyLink.top.contact {
+        flex: .65;
+    }
+   
+
+    .hireUs {
+        width: 7vw;
+        height: 2.5rem;
+        position: fixed;
+        right: 5px;
+        top: 10px;
+        margin-left: 0;
+        font-size: 1.5vw;
+        border-radius: 25px;
+    }
+
+    .about {
+        padding-top: 10%;
+    }
+
+    h2 {
+        font-size: 2.5rem ;
+    }
+
+    p {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .callTo {
+        width: 50%;
+        height: 2.5rem;
+        display: block;
+        border-radius: 25px;
+        font-size: 1.5vw;
+    }
+
+    .circlePink {
+        background: rgba(247, 136, 167, 0.6);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        right: 90px;
+        top: 185px;
+    }
+
+    .circlePurple {
+        background:rgba(207, 103, 213, 0.6); /*changed green level from 130 to 103, vscode could not find color at first*/
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        top: 215px;
+
+        
+    }
+
+    .circleOrange {
+        background: rgba(247, 193, 162, 0.7);
+        height: 175px;
+        width: 175px;
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        top: 300px;
+    }
+
+    footer {
+        height: 2.5rem;
+    }
+
+    .chirpusLink.bottom {
+        flex: 15;
+        margin-left: 10px;
+        font-size: 1.3vw;
+    }
+
+    .greyLink.bottom {
+        font-size: 1.3vw;
+    }
+}
