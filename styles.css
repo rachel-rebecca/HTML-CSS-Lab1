@@ -117,31 +117,31 @@ footer {
 
     .hireUs {
         width: 7vw;
-        height: 2.5rem;
+        height: 1.75rem;
         position: fixed;
         right: 5px;
-        top: 10px;
+        top: 14px;
         margin-left: 0;
         font-size: 1.5vw;
         border-radius: 25px;
     }
 
     .about {
-        padding-top: 10%;
+        padding-top: 60px;
     }
 
     h2 {
-        font-size: 2.5rem ;
+        font-size: 1.5rem ;
     }
 
     p {
         width: 50%;
-        font-size: 1rem;
+        font-size: .75rem;
     }
 
     .callTo {
         width: 50%;
-        height: 2.5rem;
+        height: 1.75rem;
         display: block;
         border-radius: 25px;
         font-size: 1.5vw;
@@ -154,7 +154,7 @@ footer {
         border-radius: 50%;
         position: absolute;
         right: 90px;
-        top: 185px;
+        top: 120px;
     }
 
     .circlePurple {
@@ -164,23 +164,23 @@ footer {
         border-radius: 50%;
         position: absolute;
         right: 30px;
-        top: 215px;
+        top: 160px;
 
         
     }
 
     .circleOrange {
         background: rgba(247, 193, 162, 0.7);
-        height: 175px;
-        width: 175px;
+        height: 160px;
+        width: 160px;
         border-radius: 50%;
         position: absolute;
         right: 30px;
-        top: 300px;
+        top: 250px;
     }
 
     footer {
-        height: 2.5rem;
+        height: 1.75rem;
     }
 
     .chirpusLink.bottom {
